@@ -83,6 +83,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 100px;
 }
 
 h2 {
@@ -90,12 +91,12 @@ h2 {
     font-weight: 900;
     color: #1F2937;
     padding: 20px;
+    text-align: center;
 }
 
 .card-container {
     display: flex;
     gap: 50px;
-    padding-bottom: 100px;
 }
 
 .card-container p{
@@ -135,4 +136,38 @@ h2 {
     font-style: italic;
     font-weight: 200;
     color: #1F2937;
+}
+
+.cta-container {
+    background: #3882f6;
+    padding: 50px 100px;
+    border-radius: 15px;
+    color: #F9FAF8;
+}
+
+.cta {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.cta h3, .cta p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cta button {
+    color: #F9FAF8;
+    background-color: #3882f6;
+    padding: 7px 25px;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.footer {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    text-align: center;
+    padding: 35px;
 }
